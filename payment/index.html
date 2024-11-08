@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Purchasing the Crack Zone Subscription</title>
+    <link rel="icon" href="main.png" type="image/png">
     <style>
+        *{
+            transition: all .40s ease;
+            scroll-behavior: smooth;
+        }
         :root{
     --bg-color: #1f242d;
     --text-color: #fff;
@@ -58,6 +63,7 @@ a{
     color: var(--main-color);
 }
 .method{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,6 +88,24 @@ p{
     .details{
     margin: 2rem;
     margin-bottom: 5rem;
+    }
+
+
+
+    .feild input{
+        width: 100%;
+    }
+    .method-section{
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .method-part{
+        width: 90%;
+        max-width: 90%;
+        min-width: 90%;
+        margin: 0px;
+        padding: 10px;
     }
 }
 .show{
@@ -118,15 +142,62 @@ p{
     color: var(--main-color);
     background-color: white;
 }
+
+
+
+
+
+
+.feild{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.feild input,.feild textarea {
+    margin: 5px;
+    padding: 5px;
+}
+.feild textarea{
+    padding: 5px;
+    width: 100%;
+    overflow: auto;
+    scrollbar-color: var(--main-color);
+}
+.feild textarea::-webkit-scrollbar{
+    display: none;
+}
+.method-section{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    width: 100%;
+
+}
+.method-part{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+#masg{
+    color: var(--main-color);
+    margin-left: 5px;
+}
+
     </style>
-    <link rel="icon" href="main.png" type="image/png">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
       
 </head>
 <body>
-    <marquee style="border-bottom: 2px solid white;">Welcome to crack zone. Here is a platform where you can get many paid courses , books and many more things at free of cost after the Subscription with just $10. There are two payment method to get the Subscription for Creator Zone. Binance and Remitly</marquee>
+    <!-- <marquee style="border-bottom: 2px solid white;">Welcome to crack zone. Here is a platform where you can get many paid courses , books and many more things at free of cost after the Subscription with just $10. There are two payment method to get the Subscription for Creator Zone. Binance and Remitly</marquee> -->
+    <i style="width: 30px;height: 30px; font-size: 25px;position: absolute;top: 10px;right: 10px;" class="fa-solid fa-bars"></i>
     <div class=" F-center">
         <div class="part">
  <div class="details">
@@ -143,18 +214,207 @@ p{
  </div>
         <div class="part">
            <img src="main.png" alt="Crack Zone">
-
+           
         </div>
     </div>
-
-
-<div class="method">
+    
+    <div class="method">
     <h2 align="center">Payment Methods</h2>
-    <div class="show" id="method" >Deal With Owner</div>
-    <!-- <div class="p-btns"> -->
-        <!-- <button id="method" style="width: 200px;"><a href="#binance">Deal With Owner</a></button> -->
-        <!-- <button style="margin:10px; width: 150px;"><a href="#remitly">Remitly</a></button> -->
-    <!-- </div> -->
+
+    <div class="p-btns">
+        <button id="method" style="width: 150px;"><a href="#dwo">Deal With Owner</a></button>
+    </div>
+    <div class="p-btns">
+        <button id="method" style="width: 150px;"><a href="#paybinance">Binance</a></button>
+        <button style=" width: 150px;"><a href="#payremitly">Remitly</a></button>
+    </div>
+
+    <!-- ++++++++++++++ binance +++++++++++++++++++++ -->
+    
+    <div class="method-section">
+<div class="method-part"><div class="part-details">
+    <h2  id="paybinance" >Binance</h2>
+    <p>Binance is the most popular crypto and tradding platform.</p>
+    <p>Binance supports users from over 180 countries, making it a global cryptocurrency exchange. You can use Binance to:</p>
+        
+    <ul>
+    <li>Send and receive cryptocurrencies worldwide.</li>
+    <li>Buy and sell cryptocurrencies with people from different countries.</li>
+    <li>Convert cryptocurrencies to fiat currencies (like USD, EUR, etc.) and vice versa.</li>
+    </ul>
+    <div class="p-btns">
+        <button style="width: 150px;"><a href="#bp">Start Process</a></button>
+    </div>
+</div></div>
+<div class="method-part">
+    <iframe src="https://www.youtube.com/embed/kqIcm5FnTHA?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: 2px solid white;"></iframe>
+
+</div>
+</div>
+<section style=" margin-left: 10px; width: 100%;">
+    <h1>Sending Payments via Binance </h1>
+
+    <div class="step">
+        <h3>Step 1: Log in to Your Binance Account</h3>
+        <ul>
+            <li>Go to the Binance website or open the Binance app</li>
+            <li>Log in using your email address (e.g., <strong>officialboysilentkiller@gmail.com</strong>) and password</li>
+            <li>Complete two-factor authentication (2FA) if prompted</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3>Step 2: Navigate to Wallet</h3>
+        <ul>
+            <li>Click on the "Wallet" icon at the top right of the page</li>
+            <li>Select "Fiat and Spot" to access your available funds</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3>Step 3: Select the Cryptocurrency to Send</h3>
+        <ul>
+            <li>Search for or scroll to find the cryptocurrency you want to send (e.g., USDT, BTC, ETH)</li>
+            <li>Click the "Withdraw" button next to the selected cryptocurrency</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h2>Step 4: Choose the "Email Address" Option</h2>
+        <ul>
+            <li>In the withdrawal options, select "Send via Email Address" (Binance Email Transfer)</li>
+            <li>Enter the recipient's Binance email address (e.g., <strong>officialboysilentkiller@gmail.com</strong>)</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3>Step 5: Enter Amount and Note</h3>
+        <ul>
+            <li>Enter the amount of cryptocurrency you wish to send</li>
+            <li>Optional: Write a note for the recipient (e.g., "Payment for services rendered")</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3>Step 6: Review and Confirm</h3>
+        <ul>
+            <li>Review the details carefully (recipient's email address, amount, note)</li>
+            <li>Click "Continue" to proceed</li>
+        </ul>
+    </div>
+    <div class="p-btns">
+        <button style="width: 150px;"><a id="bp" target="_blank" href="https://accounts.binance.com/">Pay with Binance</a></button>
+    </div>
+</section>
+
+<!-- ++++++++++++++ Remitly +++++++++++++++++++++ -->
+
+<div class="method-section">
+<div class="method-part"><div class="part-details">
+    <h2  id="payremitly">Remitly</h2>
+    <p>Remitly is a trusted money transfer service that allows you to send money quickly and securely.</p> <p>Remitly serves customers in over 50 countries, making it a global remittance provider. You can use Remitly to:</p> <ul> <li>Send money to family and friends worldwide.</li> <li>Transfer funds quickly across borders to over 50 countries.</li> <li>Send money directly to bank accounts, cash pickup locations, or mobile wallets.</li> </ul>
+    </ul>
+    <div class="p-btns">
+        <button style="width: 150px;"><a href="#rp">Start Process</a></button>
+    </div>
+</div></div>
+<div class="method-part">
+    <iframe src="https://www.youtube.com/embed/yC2fzSLc5E8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: 2px solid white;"></iframe>
+
+
+</div>
+</div>
+<section style=" margin-left: 10px; width: 100%;">
+    <h1>Remitly Signup and Login Page</h1>
+
+    <div class="step">
+        <h3>Step 1: Send Money</h3>
+        <ul>
+            <li>Click "Send Money"</li>
+            <li>Select "Pakistan" as destination country</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3>Step 2: Choose Receive Method</h3>
+        <ul>
+            <li>Select "Easypaisa" as receive method</li>
+            <li>Enter recipient's mobile number: <b>03290487854</b></li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3>Step 3: Enter Amount</h3>
+        <ul>
+            <li>Enter amount to send</li>
+            <li>Choose payment method (credit/debit card, bank transfer, etc.)</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3>Step 4: Review and Confirm</h3>
+        <ul>
+            <li>Review transfer details (exchange rate, fees)</li>
+            <li>Confirm recipient details and amount</li>
+            <li>Click "Continue"</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3>Step 5: Pay and Track</h3>
+        <ul>
+            <li>Enter payment method details</li>
+            <li>Confirm payment</li>
+            <li>Get tracking number to track transfer status</li>
+        </ul>
+    </div>
+    <div class="p-btns">
+        <button style="width: 150px;"><a id="rp" target="_blank" href="https://www.remitly.com/">Pay with Remitly</a></button>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++?? -->
+<form name="submit-to-google-sheet" class="feild">
+    <h3 style="margin-left: 10px; margin-bottom: 2px; width: 100%; ">Personal Details</h3>
+<div class="feild">
+    <input name="Fname" placeholder="First Name" type="text" required>
+    <input name="Lname" placeholder="Last Name" type="text" required>
+    <input name="Email" placeholder="Email" type="email" required>
+</div>
+        <br>
+        <h3 style="margin-left: 10px; margin-bottom: 2px; width: 100%; ">
+            
+            Payment Details
+        </h3>
+        <div class="feild">
+<input name="Method" placeholder="Binance or Remitly" type="text" required>
+<textarea name="Msg" rows="5" placeholder="write more details about payments!" required></textarea>
+<input class="show" type="submit" value="Submit">
+<span id="masg"></span>
+</div>
+
+    </form><br>
+
+
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++?? -->
+
+
+
+    <div class="show" id="dwo" >Deal With Owner</div>
+
      <div class="icons">
 
         <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -162,76 +422,27 @@ p{
          <a href="mailto:crackzonegetting@gmail.com"><i style="font-size: 2rem; margin-bottom: 5px;" class="fa-solid fa-envelope"></i></a>
 
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
-
+    </div>
 </div>
-</div>
-<!-- <div class="pay-d">
-<div id="binance">
-    <h1>1. Binance</h2>
-    <p>Binance is the most popular crypto and trading platform and its also a best method to make transuction from anywhere.</p>
- <details>
-        <summary style="font-size: large;">What is binance and how to use it ?</summary>
-        <h2>What Binance Offers</h2>
 
-        <p>Binance supports users from over 180 countries, making it a global cryptocurrency exchange. You can use Binance to:</p>
-        
-        <ul>
-        <li>Send and receive cryptocurrencies worldwide.</li>
-        <li>Buy and sell cryptocurrencies with people from different countries.</li>
-        <li>Convert cryptocurrencies to fiat currencies (like USD, EUR, etc.) and vice versa.</li>
-        </ul>
-        
-        <h2>International Transaction Options</h2>
-        
-        <p>Here are some ways Binance facilitates international transactions:</p>
-        
-        <ul>
-        <li><strong>Cross-border payments</strong>: Send cryptocurrencies to anyone, anywhere in the world.</li>
-        <li><strong>Fiat currency support</strong>: Deposit and withdraw fiat currencies using bank transfers, credit/debit cards, or e-wallets.</li>
-        <li><strong>Multi-language support</strong>: Binance is available in many languages.</li>
-        <li><strong>Global access</strong>: Use Binance on web, mobile, or desktop applications.</li>
-        </ul>
-        
-        <h2>Popular International Transaction Options</h2>
-        
-        <p>Some popular international transaction options on Binance include:</p>
-        
-        <ul>
-        <li><strong>Binance P2P (Peer-to-Peer)</strong>: Trade directly with other users.</li>
-        <li><strong>Binance Spot</strong>: Trade cryptocurrencies with other users.</li>
-        <li><strong>Binance Convert</strong>: Convert cryptocurrencies to fiat or other cryptocurrencies.</li>
-        </ul>
-        
-        <h2>Important Considerations</h2>
-        
-        <p>Keep in mind:</p>
-        
-        <ul>
-        <li><strong>Regulations</strong>: Check local laws and regulations regarding cryptocurrency transactions.</li>
-        <li><strong>Fees</strong>: Understand Binance fees for transactions, withdrawals, and deposits.</li>
-        <li><strong>Security</strong>: Always prioritize account security.</li>
-        </ul>
-        
-        <h2>Getting Started</h2>
-        
-        <p>To get started with international transactions on Binance:</p>
-        
-        <ol>
-        <li>Verify your account (KYC/AML).</li>
-        <li>Set up 2-factor authentication.</li>
-        <li>Fund your account.</li>
-        <li>Explore Binance's international transaction options.</li>
-        </ol>
-        
 
-    </details> 
-
-</div>
-<div id="remitly">
-    <h1>2. Remitly</h2>
-    <p>Remitly is the best and trusted platform to make transuction in many countries.</p>
-
-</div>
-</div> -->
+<script>
+    let msg = document.getElementById('masg');
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwbgmTnbUloIVhi8D-OyruGoVoFL0StT1H0DFTRXAPCpk4Dd_N9E0NrYChSjnYWBbb_sg/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Submit Successfully";
+            
+        })
+        .catch(error => {
+            msg.innerHTML="Submit Successfully";
+            msg.style.color = 'red'
+        })
+    })
+  </script>
 </body>
 </html>
