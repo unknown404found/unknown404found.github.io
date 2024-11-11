@@ -303,22 +303,22 @@ p{
    <nav>
         <div id="navbar">
             <ul>
-                <li><a href="./">Home</a></li>
-                <li><a href="./about-us">About</a></li>
-                <li><a href="./privacy-policy">Privacy Policy</a></li>
-                <li><a href="./disclaimer">Disclaimer</a></li>
-                <li><a href="./payment">Contact us</a></li>
+                <li><a href="https://www.crackzone.shop">Home</a></li>
+                <li><a href="https://www.crackzone.shop/about-us">About</a></li>
+                <li><a href="https://www.crackzone.shop/privacy-policy">Privacy Policy</a></li>
+                <li><a href="https://www.crackzone.shop/disclaimer">Disclaimer</a></li>
+                <li><a href="https://www.crackzone.shop/contact-us">Contact us</a></li>
             </ul>
             <i id="bar" class="fa-solid fa-bars"></i>
 
         </div>
         <div class="dropdown">
             <ul>
-                <li><a href="./">Home</a></li>
-                <li><a href="./about-us">About</a></li>
-                <li><a href="./privacy-policy">Privacy Policy</a></li>
-                <li><a href="./disclaimer">Disclaimer</a></li>
-                <li><a href="./payment">Contact us</a></li>
+                <li><a href="https://www.crackzone.shop">Home</a></li>
+                <li><a href="https://www.crackzone.shop/about-us">About</a></li>
+                <li><a href="https://www.crackzone.shop/privacy-policy">Privacy Policy</a></li>
+                <li><a href="https://www.crackzone.shop/disclaimer">Disclaimer</a></li>
+                <li><a href="https://www.crackzone.shop/contact-us">Contact us</a></li>
                 <div class="icons" style="margin: 3px;margin-bottom: 3px;">
 
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -562,7 +562,16 @@ p{
     <p>&copy; 2024 Crack Zone. All rights reserved.</p>
 </footer>
         
-
+<script>
+    const togglebtn = document.querySelector('#bar');
+    const doing = document.querySelector('.dropdown');
+    togglebtn.addEventListener('click',()=>{
+        const isOpen = doing.classList.toggle('open');
+        togglebtn.classList = isOpen
+        ? 'fa-solid fa-x icon'
+        : 'fa-solid fa-bars icon'
+    })
+</script>
 <script>
     let msg = document.getElementById('masg');
     const scriptURL = 'https://script.google.com/macros/s/AKfycbwbgmTnbUloIVhi8D-OyruGoVoFL0StT1H0DFTRXAPCpk4Dd_N9E0NrYChSjnYWBbb_sg/exec'
