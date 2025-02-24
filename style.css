@@ -243,6 +243,10 @@ body{
 
 
 @media (max-width:900px) {
+    .F-center img{
+    height: 200px;
+
+}
    #navbar ul{
     display: none;
    }
