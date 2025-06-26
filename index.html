@@ -13,13 +13,11 @@
     <style>
         body {
             margin: 0;
-            padding: 5px;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             height : 100vh;
-            width : 100%;
             background-color: #0a192f;
             font-family: Arial, sans-serif;
         }
@@ -84,6 +82,18 @@
         i {
             color: white;
         }
+
+              @media (max-width : 500px) {
+          body{
+            padding: 20px;
+            height: 100vh;
+          }
+          .container{
+            width: 100%;
+            height: 80vh;
+          }
+        }
+        
     </style>
 </head>
 <body>
